@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackRest", "BackRest\BackRest.csproj", "{CA23E720-8B90-4753-86EE-6770D55184F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerConnect", "..\..\ServerConnect\CS\ServerConnect\ServerConnect.csproj", "{016C2786-398F-4022-9D73-B61C5D01644E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA23E720-8B90-4753-86EE-6770D55184F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA23E720-8B90-4753-86EE-6770D55184F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA23E720-8B90-4753-86EE-6770D55184F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA23E720-8B90-4753-86EE-6770D55184F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016C2786-398F-4022-9D73-B61C5D01644E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016C2786-398F-4022-9D73-B61C5D01644E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016C2786-398F-4022-9D73-B61C5D01644E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016C2786-398F-4022-9D73-B61C5D01644E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="Settings">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings>
+    <Setting Name="TraceConfigFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\Microsoft SQL Server\100\Tools\Profiler\Templates\Microsoft SQL Server\100\Standard.tdf</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

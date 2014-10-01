@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LoginsComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LoginsComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 306</value>
+  </data>
+  <data name="LoginsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LoginsComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LoginsComboBox.Name">
+    <value xml:space="preserve">LoginsComboBox</value>
+  </data>
+  <data name="&gt;&gt;LoginsComboBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginsComboBox.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;LoginsComboBox.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 309</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.Text">
+    <value xml:space="preserve">Login:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name">
+    <value xml:space="preserve">label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="DatabasesComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 7</value>
+  </data>
+  <data name="DatabasesComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 21</value>
+  </data>
+  <data name="DatabasesComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DatabasesComboBox.Name">
+    <value xml:space="preserve">DatabasesComboBox</value>
+  </data>
+  <data name="&gt;&gt;DatabasesComboBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatabasesComboBox.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;DatabasesComboBox.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="UserNameTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="UserNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 280</value>
+  </data>
+  <data name="UserNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>384, 20</value>
+  </data>
+  <data name="UserNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Name">
+    <value xml:space="preserve">UserNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;UserNameTextBox.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 284</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 23</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text">
+    <value xml:space="preserve">User name:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name">
+    <value xml:space="preserve">label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="DeleteUserButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="DeleteUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 304</value>
+  </data>
+  <data name="DeleteUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="DeleteUserButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="DeleteUserButton.Text">
+    <value xml:space="preserve">D&amp;elete User</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserButton.Name">
+    <value xml:space="preserve">DeleteUserButton</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserButton.Type">
+    <value xml:space="preserve">System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserButton.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;DeleteUserButton.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <data name="AddUserButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="AddUserButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 279</value>
+  </data>
+  <data name="AddUserButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 23</value>
+  </data>
+  <data name="AddUserButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AddUserButton.Text">
+    <value xml:space="preserve">&amp;Add User</value>
+  </data>
+  <data name="&gt;&gt;AddUserButton.Name">
+    <value xml:space="preserve">AddUserButton</value>
+  </data>
+  <data name="&gt;&gt;AddUserButton.Type">
+    <value xml:space="preserve">System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddUserButton.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;AddUserButton.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <data name="clhLoginName.Text">
+    <value xml:space="preserve">Login Name</value>
+  </data>
+  <data name="clhLoginName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="clhUserName.Text">
+    <value xml:space="preserve">User Name</value>
+  </data>
+  <data name="clhUserName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="UsersListView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="clhUserID.Text">
+    <value xml:space="preserve">User ID</value>
+  </data>
+  <data name="clhUserID.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="UsersListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 55</value>
+  </data>
+  <data name="UsersListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 219</value>
+  </data>
+  <data name="UsersListView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;UsersListView.Name">
+    <value xml:space="preserve">UsersListView</value>
+  </data>
+  <data name="&gt;&gt;UsersListView.Type">
+    <value xml:space="preserve">System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UsersListView.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;UsersListView.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <data name="DatabasesLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8pt</value>
+  </data>
+  <data name="DatabasesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 10</value>
+  </data>
+  <data name="DatabasesLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="DatabasesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="DatabasesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DatabasesLabel.Text">
+    <value xml:space="preserve">&amp;Databases:</value>
+  </data>
+  <data name="&gt;&gt;DatabasesLabel.Name">
+    <value xml:space="preserve">DatabasesLabel</value>
+  </data>
+  <data name="&gt;&gt;DatabasesLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DatabasesLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;DatabasesLabel.ZOrder">
+    <value xml:space="preserve">8</value>
+  </data>
+  <data name="UsersLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 39</value>
+  </data>
+  <data name="UsersLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="UsersLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="UsersLabel.Text">
+    <value xml:space="preserve">Users:</value>
+  </data>
+  <data name="&gt;&gt;UsersLabel.Name">
+    <value xml:space="preserve">UsersLabel</value>
+  </data>
+  <data name="&gt;&gt;UsersLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UsersLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;UsersLabel.ZOrder">
+    <value xml:space="preserve">9</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>592, 339</value>
+  </data>
+  <data name="$this.Text">
+    <value xml:space="preserve">Manage Database Users</value>
+  </data>
+  <data name="&gt;&gt;clhLoginName.Name">
+    <value xml:space="preserve">clhLoginName</value>
+  </data>
+  <data name="&gt;&gt;clhLoginName.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clhUserName.Name">
+    <value xml:space="preserve">clhUserName</value>
+  </data>
+  <data name="&gt;&gt;clhUserName.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clhUserID.Name">
+    <value xml:space="preserve">clhUserID</value>
+  </data>
+  <data name="&gt;&gt;clhUserID.Type">
+    <value xml:space="preserve">System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">ManageDatabaseUsers</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="value1ColumnHeader.Text" xml:space="preserve">
+    <value>Value 1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="value1ColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="urn2ColumnHeader.Text" xml:space="preserve">
+    <value>URN 2</value>
+  </data>
+  <data name="urn2ColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="serverLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 23</value>
+  </data>
+  <data name="serverLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 16</value>
+  </data>
+  <data name="serverLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="serverLabel1.Text" xml:space="preserve">
+    <value>Server 1</value>
+  </data>
+  <data name="&gt;&gt;serverLabel1.Name" xml:space="preserve">
+    <value>serverLabel1</value>
+  </data>
+  <data name="&gt;&gt;serverLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverLabel1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="value2ColumnHeader.Text" xml:space="preserve">
+    <value>Value 2</value>
+  </data>
+  <data name="value2ColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="propertyNameColumnHeader.Text" xml:space="preserve">
+    <value>Property name</value>
+  </data>
+  <data name="propertyNameColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="differencesListView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="differencesListView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 471</value>
+  </data>
+  <data name="differencesListView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>915, 128</value>
+  </data>
+  <data name="differencesListView.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;differencesListView.Name" xml:space="preserve">
+    <value>differencesListView</value>
+  </data>
+  <data name="&gt;&gt;differencesListView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;differencesListView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;differencesListView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="urn1ColumnHeader.Name" xml:space="preserve">
+    <value>urn1ColumnHeader</value>
+  </data>
+  <data name="urn1ColumnHeader.Text" xml:space="preserve">
+    <value>URN 1</value>
+  </data>
+  <data name="urn1ColumnHeader.Width" type="System.Int32, mscorlib">
+    <value>270</value>
+  </data>
+  <data name="shallowCompareButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 61</value>
+  </data>
+  <data name="shallowCompareButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 30</value>
+  </data>
+  <data name="shallowCompareButton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="shallowCompareButton.Text" xml:space="preserve">
+    <value>Shallow comparison</value>
+  </data>
+  <data name="&gt;&gt;shallowCompareButton.Name" xml:space="preserve">
+    <value>shallowCompareButton</value>
+  </data>
+  <data name="&gt;&gt;shallowCompareButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;shallowCompareButton.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;shallowCompareButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="serverTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="serverTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="serverTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="serverTextBox1.Text" xml:space="preserve">
+    <value>(local)</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox1.Name" xml:space="preserve">
+    <value>serverTextBox1</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="urnCompareGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="urnTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 20</value>
+  </data>
+  <data name="urnTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="urnTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox1.Name" xml:space="preserve">
+    <value>urnTextBox1</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox1.Parent" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="object1URNLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="object1URNLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="object1URNLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="object1URNLabel.Text" xml:space="preserve">
+    <value>Object 1 URN</value>
+  </data>
+  <data name="&gt;&gt;object1URNLabel.Name" xml:space="preserve">
+    <value>object1URNLabel</value>
+  </data>
+  <data name="&gt;&gt;object1URNLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;object1URNLabel.Parent" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;object1URNLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="object2URNLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 55</value>
+  </data>
+  <data name="object2URNLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="object2URNLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="object2URNLabel.Text" xml:space="preserve">
+    <value>Object 2 URN</value>
+  </data>
+  <data name="&gt;&gt;object2URNLabel.Name" xml:space="preserve">
+    <value>object2URNLabel</value>
+  </data>
+  <data name="&gt;&gt;object2URNLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;object2URNLabel.Parent" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;object2URNLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="urnTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 52</value>
+  </data>
+  <data name="urnTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>710, 20</value>
+  </data>
+  <data name="urnTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox2.Name" xml:space="preserve">
+    <value>urnTextBox2</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox2.Parent" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;urnTextBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="objectBrowse2Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>852, 51</value>
+  </data>
+  <data name="objectBrowse2Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 21</value>
+  </data>
+  <data name="objectBrowse2Button.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="objectBrowse2Button.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse2Button.Name" xml:space="preserve">
+    <value>objectBrowse2Button</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse2Button.Parent" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse2Button.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="objectBrowse1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>851, 20</value>
+  </data>
+  <data name="objectBrowse1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="objectBrowse1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="objectBrowse1Button.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse1Button.Name" xml:space="preserve">
+    <value>objectBrowse1Button</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse1Button.Parent" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;objectBrowse1Button.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="urnCompareGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 117</value>
+  </data>
+  <data name="urnCompareGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>917, 83</value>
+  </data>
+  <data name="urnCompareGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="urnCompareGroupBox.Text" xml:space="preserve">
+    <value>Select the objects you want to compare</value>
+  </data>
+  <data name="&gt;&gt;urnCompareGroupBox.Name" xml:space="preserve">
+    <value>urnCompareGroupBox</value>
+  </data>
+  <data name="&gt;&gt;urnCompareGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;urnCompareGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;urnCompareGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="serverLoginGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.Name" xml:space="preserve">
+    <value>serverLabel2</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.Name" xml:space="preserve">
+    <value>serverTextBox2</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.Name" xml:space="preserve">
+    <value>inDepthCompareButton</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.Name" xml:space="preserve">
+    <value>passwordTextBox2</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.Name" xml:space="preserve">
+    <value>loginTextBox2</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.Name" xml:space="preserve">
+    <value>loginLabel2</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.Name" xml:space="preserve">
+    <value>passwordLabel2</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.Name" xml:space="preserve">
+    <value>passwordTextBox1</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.Name" xml:space="preserve">
+    <value>loginTextBox1</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.Name" xml:space="preserve">
+    <value>loginLabel1</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.Name" xml:space="preserve">
+    <value>passwordLabel1</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="serverLoginGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 10</value>
+  </data>
+  <data name="serverLoginGroupBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="serverLoginGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>917, 103</value>
+  </data>
+  <data name="serverLoginGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="serverLoginGroupBox.Text" xml:space="preserve">
+    <value>Enter server names and credentials</value>
+  </data>
+  <data name="&gt;&gt;serverLoginGroupBox.Name" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverLoginGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverLoginGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;serverLoginGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="serverLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 23</value>
+  </data>
+  <data name="serverLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="serverLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="serverLabel2.Text" xml:space="preserve">
+    <value>Server 2</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.Name" xml:space="preserve">
+    <value>serverLabel2</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverLabel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="serverTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 20</value>
+  </data>
+  <data name="serverTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="serverTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="serverTextBox2.Text" xml:space="preserve">
+    <value>(local)</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.Name" xml:space="preserve">
+    <value>serverTextBox2</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serverTextBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="inDepthCompareButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>673, 20</value>
+  </data>
+  <data name="inDepthCompareButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 31</value>
+  </data>
+  <data name="inDepthCompareButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="inDepthCompareButton.Text" xml:space="preserve">
+    <value>In depth comparison</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.Name" xml:space="preserve">
+    <value>inDepthCompareButton</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;inDepthCompareButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="passwordTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 68</value>
+  </data>
+  <data name="passwordTextBox2.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="passwordTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="passwordTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.Name" xml:space="preserve">
+    <value>passwordTextBox2</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="loginTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>417, 44</value>
+  </data>
+  <data name="loginTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 20</value>
+  </data>
+  <data name="loginTextBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.Name" xml:space="preserve">
+    <value>loginTextBox2</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="loginLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 46</value>
+  </data>
+  <data name="loginLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="loginLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="loginLabel2.Text" xml:space="preserve">
+    <value>Login 2</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.Name" xml:space="preserve">
+    <value>loginLabel2</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginLabel2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="passwordLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 70</value>
+  </data>
+  <data name="passwordLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="passwordLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="passwordLabel2.Text" xml:space="preserve">
+    <value>Password 2</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.Name" xml:space="preserve">
+    <value>passwordLabel2</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="passwordTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 68</value>
+  </data>
+  <data name="passwordTextBox1.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>#</value>
+  </data>
+  <data name="passwordTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="passwordTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.Name" xml:space="preserve">
+    <value>passwordTextBox1</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordTextBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="loginTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 44</value>
+  </data>
+  <data name="loginTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 20</value>
+  </data>
+  <data name="loginTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.Name" xml:space="preserve">
+    <value>loginTextBox1</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginTextBox1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="loginLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 46</value>
+  </data>
+  <data name="loginLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 16</value>
+  </data>
+  <data name="loginLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="loginLabel1.Text" xml:space="preserve">
+    <value>Login 1</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.Name" xml:space="preserve">
+    <value>loginLabel1</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;loginLabel1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="passwordLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 68</value>
+  </data>
+  <data name="passwordLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 16</value>
+  </data>
+  <data name="passwordLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="passwordLabel1.Text" xml:space="preserve">
+    <value>Password 1</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.Name" xml:space="preserve">
+    <value>passwordLabel1</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.Parent" xml:space="preserve">
+    <value>serverLoginGroupBox</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="genScript2to1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 606</value>
+  </data>
+  <data name="genScript2to1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 23</value>
+  </data>
+  <data name="genScript2to1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="genScript2to1Button.Text" xml:space="preserve">
+    <value>Generate script to make Object 2 identical with Object 1 (property wise)</value>
+  </data>
+  <data name="&gt;&gt;genScript2to1Button.Name" xml:space="preserve">
+    <value>genScript2to1Button</value>
+  </data>
+  <data name="&gt;&gt;genScript2to1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;genScript2to1Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;genScript2to1Button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="genScript1to2Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 606</value>
+  </data>
+  <data name="genScript1to2Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 23</value>
+  </data>
+  <data name="genScript1to2Button.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="genScript1to2Button.Text" xml:space="preserve">
+    <value>Generate script to make Object 1 identical with Object 2 (property wise)</value>
+  </data>
+  <data name="&gt;&gt;genScript1to2Button.Name" xml:space="preserve">
+    <value>genScript1to2Button</value>
+  </data>
+  <data name="&gt;&gt;genScript1to2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;genScript1to2Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;genScript1to2Button.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="differencesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 448</value>
+  </data>
+  <data name="differencesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 16</value>
+  </data>
+  <data name="differencesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="differencesLabel.Text" xml:space="preserve">
+    <value>Properties which are different in value</value>
+  </data>
+  <data name="&gt;&gt;differencesLabel.Name" xml:space="preserve">
+    <value>differencesLabel</value>
+  </data>
+  <data name="&gt;&gt;differencesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;differencesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;differencesLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="col1.Text" xml:space="preserve">
+    <value>URN</value>
+  </data>
+  <data name="col1.Width" type="System.Int32, mscorlib">
+    <value>800</value>
+  </data>
+  <data name="objectListView2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="objectListView2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 353</value>
+  </data>
+  <data name="objectListView2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 88</value>
+  </data>
+  <data name="objectListView2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;objectListView2.Name" xml:space="preserve">
+    <value>objectListView2</value>
+  </data>
+  <data name="&gt;&gt;objectListView2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objectListView2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;objectListView2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="col2.Name" xml:space="preserve">
+    <value>col2</value>
+  </data>
+  <data name="col2.Text" xml:space="preserve">
+    <value>URN</value>
+  </data>
+  <data name="col2.Width" type="System.Int32, mscorlib">
+    <value>800</value>
+  </data>
+  <data name="object2OnlyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 330</value>
+  </data>
+  <data name="object2OnlyLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 3</value>
+  </data>
+  <data name="object2OnlyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 16</value>
+  </data>
+  <data name="object2OnlyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="object2OnlyLabel.Text" xml:space="preserve">
+    <value>Objects which are under Object 2 URN only</value>
+  </data>
+  <data name="&gt;&gt;object2OnlyLabel.Name" xml:space="preserve">
+    <value>object2OnlyLabel</value>
+  </data>
+  <data name="&gt;&gt;object2OnlyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;object2OnlyLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;object2OnlyLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="object1OnlyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 205</value>
+  </data>
+  <data name="object1OnlyLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 1, 3, 3</value>
+  </data>
+  <data name="object1OnlyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 16</value>
+  </data>
+  <data name="object1OnlyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="object1OnlyLabel.Text" xml:space="preserve">
+    <value>Objects which are under Object 1 URN only</value>
+  </data>
+  <data name="&gt;&gt;object1OnlyLabel.Name" xml:space="preserve">
+    <value>object1OnlyLabel</value>
+  </data>
+  <data name="&gt;&gt;object1OnlyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;object1OnlyLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;object1OnlyLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="objectListView1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="objectListView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 228</value>
+  </data>
+  <data name="objectListView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 1</value>
+  </data>
+  <data name="objectListView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>916, 88</value>
+  </data>
+  <data name="objectListView1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;objectListView1.Name" xml:space="preserve">
+    <value>objectListView1</value>
+  </data>
+  <data name="&gt;&gt;objectListView1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;objectListView1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;objectListView1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>5, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>936, 639</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Microsoft SQL Server Objects Metadata Comparison Tool</value>
+  </data>
+  <data name="&gt;&gt;value1ColumnHeader.Name" xml:space="preserve">
+    <value>value1ColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;value1ColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;urn2ColumnHeader.Name" xml:space="preserve">
+    <value>urn2ColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;urn2ColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;value2ColumnHeader.Name" xml:space="preserve">
+    <value>value2ColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;value2ColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;propertyNameColumnHeader.Name" xml:space="preserve">
+    <value>propertyNameColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;propertyNameColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;urn1ColumnHeader.Name" xml:space="preserve">
+    <value>urn1ColumnHeader</value>
+  </data>
+  <data name="&gt;&gt;urn1ColumnHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col1.Name" xml:space="preserve">
+    <value>col1</value>
+  </data>
+  <data name="&gt;&gt;col1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;col2.Name" xml:space="preserve">
+    <value>col2</value>
+  </data>
+  <data name="&gt;&gt;col2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SqlCompareUI</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

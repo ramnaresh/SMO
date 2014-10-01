@@ -1,0 +1,162 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B44FBAEA-E755-4067-97C8-C4BF98FCB4D5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Samples.SqlServer</RootNamespace>
+    <AssemblyName>SqlServerControls</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\..\..\..\..\SampleKey.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ExceptionMessageBox, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.ServiceBrokerEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SqlEnum, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Core\ConfigurationBase.cs" />
+    <Compile Include="Classes\Core\GeneralSqlServer.cs" />
+    <Compile Include="Classes\Core\IConfiguration.cs" />
+    <Compile Include="Classes\Core\SqlConnectionConfiguration.cs" />
+    <Compile Include="Classes\Database\CertificateConfiguration.cs" />
+    <Compile Include="Classes\Database\EndpointConfiguration.cs" />
+    <Compile Include="Classes\Core\ApplicationConfiguration.cs" />
+    <Compile Include="Classes\ServiceBroker\BrokerServiceConfiguration.cs" />
+    <Compile Include="Classes\ServiceBroker\MessageTypeConfiguration.cs" />
+    <Compile Include="Classes\ServiceBroker\RemoteServiceBindingConfiguration.cs" />
+    <Compile Include="Classes\ServiceBroker\ServiceContractConfiguration.cs" />
+    <Compile Include="Classes\ServiceBroker\ServiceQueueConfiguration.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\ContractsListTypeEditor.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\MessageTypeMapControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\MessageTypeMapTypeEditor.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\NotSetListboxTypeEditor.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\OwnerNameListTypeEditor.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\QueueNameListTypeEditor.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\ValidationSchemaEditor.cs" />
+    <Compile Include="Classes\ServiceBroker\UITypeEditors\ValidationSchemaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\TaskPane.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TaskPane.Designer.cs">
+      <DependentUpon>TaskPane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Core\EditObject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Core\EditObject.designer.cs">
+      <DependentUpon>EditObject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Core\ObjectsSplitPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Core\ObjectsSplitPanel.designer.cs">
+      <DependentUpon>ObjectsSplitPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Core\SqlConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Core\SqlConnection.Designer.cs">
+      <DependentUpon>SqlConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Classes\ServiceBroker\UITypeEditors\MessageTypeMapControl.resx">
+      <DependentUpon>MessageTypeMapControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\ServiceBroker\UITypeEditors\ValidationSchemaForm.resx">
+      <DependentUpon>ValidationSchemaForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TaskPane.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TaskPane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Core\EditObject.resx">
+      <DependentUpon>EditObject.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Core\ObjectsSplitPanel.resx">
+      <DependentUpon>ObjectsSplitPanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Core\SqlConnection.resx">
+      <DependentUpon>SqlConnection.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\SampleKey.snk">
+      <Link>SampleKey.snk</Link>
+    </None>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Server.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,2 @@
+
+<Assembly: System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2201:DoNotRaiseReservedExceptionTypes", Scope:="member", Target:="Microsoft.Samples.SqlServer.SmoCompare.Start(Microsoft.SqlServer.Management.Smo.Urn,Microsoft.SqlServer.Management.Smo.Urn):System.Boolean")> 

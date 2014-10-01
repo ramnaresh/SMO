@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadConfigurationFile" xml:space="preserve">
+    <value>Bad configuration file: Type is null &amp;&amp; Property is null &amp;&amp; Urn is null @ &lt;Ignore&gt; tag no. {0}</value>
+  </data>
+  <data name="BadConfigurationFileNullReference" xml:space="preserve">
+    <value>Bad configuration file: Type is null &amp;&amp; Property is null @ CanBeNullReference no. {0}</value>
+  </data>
+  <data name="Comparing" xml:space="preserve">
+    <value>Comparing {0} and {1}</value>
+  </data>
+  <data name="DifferentNumberProperties" xml:space="preserve">
+    <value>{0} and {1} have different numbers of properties: {2} and {3}</value>
+  </data>
+  <data name="DifferentNumberTables" xml:space="preserve">
+    <value>The two DBs have different numbers of tables</value>
+  </data>
+  <data name="DifferentNumberViews" xml:space="preserve">
+    <value>The two DBs have different numbers of views</value>
+  </data>
+  <data name="ErrorCreatingFirstObject" xml:space="preserve">
+    <value>Error trying to create the first object: {0}</value>
+  </data>
+  <data name="ErrorCreatingFirstObjectException" xml:space="preserve">
+    <value>Error trying to create the first object</value>
+  </data>
+  <data name="ErrorCreatingSecondObject" xml:space="preserve">
+    <value>Error trying to create the second object: {0}</value>
+  </data>
+  <data name="ErrorCreatingSecondObjectException" xml:space="preserve">
+    <value>Error trying to create the second object</value>
+  </data>
+  <data name="ErrorLoadingConfiguration" xml:space="preserve">
+    <value>ERROR: Trying to load configuration file; {0}</value>
+  </data>
+  <data name="ErrorLoadingConfigurationException" xml:space="preserve">
+    <value>ERROR: Trying to load configuration file from the same dir as SMOCompare.dll</value>
+  </data>
+  <data name="ErrorReadingFirst" xml:space="preserve">
+    <value>ERROR in reading data from the second object: {0}.
+EXCEPTION: {1}</value>
+  </data>
+  <data name="ErrorReadingSecond" xml:space="preserve">
+    <value>ERROR in reading data from the first object: {0}.
+EXCEPTION: {1}</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Exception --&gt;&gt;: {0}</value>
+  </data>
+  <data name="ExceptionWhileComparing" xml:space="preserve">
+    <value>Exception while comparing: {0} with {1}</value>
+  </data>
+  <data name="FieldCountDiffers" xml:space="preserve">
+    <value>ERROR: The field count for the two objects is different!</value>
+  </data>
+  <data name="IgnoredException" xml:space="preserve">
+    <value>IGNORED EXCEPTION: {0}</value>
+  </data>
+  <data name="MoreRows" xml:space="preserve">
+    <value>One of the objects has more than {0} rows.</value>
+  </data>
+  <data name="NullReferenceException" xml:space="preserve">
+    <value>NULL Reference exception, these properties shouldn't be null: smoObject1[{0}] and smoObject2[{1}] have NULL properties {2} and {3}.</value>
+  </data>
+  <data name="ObjectNotCreated" xml:space="preserve">
+    <value>Object {0} couldn't be created</value>
+  </data>
+  <data name="ObjectsHaveDifferentTypes" xml:space="preserve">
+    <value>Objects to compare have different types, {0} and {1}</value>
+  </data>
+  <data name="ObjectsNotDatabaseEtc" xml:space="preserve">
+    <value>These objects are not databases, not tables, not views!!!</value>
+  </data>
+  <data name="ObjectValue" xml:space="preserve">
+    <value>MaximumLength={0}, Name={1}, NumericPrecision={2}, NumericScale={3}, Schema={4}, SqlDataType={5}, </value>
+  </data>
+  <data name="OneTypeHasSchema" xml:space="preserve">
+    <value>One Type has schema and the other doesn't.
+This is a bug in this component;
+Please copy the stack trace and file a bug against it.</value>
+  </data>
+  <data name="PropertyNameNotSet" xml:space="preserve">
+    <value>*** PROPERTY NAME NOT SET YET ***</value>
+  </data>
+  <data name="ReadingProperty" xml:space="preserve">
+    <value>Reading property: {0}</value>
+  </data>
+  <data name="ServerPropertiesCannotBeNull" xml:space="preserve">
+    <value>Server 1 or Server 2 properties can not be null</value>
+  </data>
+  <data name="Types" xml:space="preserve">
+    <value>Types: {0}, {1}</value>
+  </data>
+  <data name="Values" xml:space="preserve">
+    <value>Values: {0}, {1}</value>
+  </data>
+</root>

@@ -1,0 +1,69 @@
+<SMOComparer>
+	<!-- Ignore a TYPE      
+		<Ignore Type=""></Ignore>
+	-->
+	<Ignore Type="DataFileCollection"></Ignore>
+	<Ignore Type="LogFileCollection"></Ignore>
+
+	<!-- Ignore an OBJECT 
+		<Ignore Urn=""></Ignore>
+	-->
+ 	<!-- Ignore a PROPERTY 
+		<Ignore Prop=""></Ignore>
+	-->
+
+	<Ignore Prop="IdentityIncrement"></Ignore>
+	<Ignore Prop="IdentitySeed"></Ignore>
+
+	<Ignore Prop="LastBackupDate"></Ignore>
+	<Ignore Prop="DateLastModified"></Ignore>
+	<Ignore Prop="CreateDate"></Ignore>
+	<Ignore Prop="ModifyDate"></Ignore>
+	<Ignore Prop="LastUpdated"></Ignore>
+	<Ignore Prop="SpaceUsed"></Ignore>
+	<Ignore Prop="IndexSpaceUsed"></Ignore>
+	<Ignore Prop="IndexSpaceUsage"></Ignore>
+	<Ignore Prop="DataSpaceUsed"></Ignore>
+	<Ignore Prop="DataSpaceUsage"></Ignore>
+	<Ignore Prop="RowCount"></Ignore>
+	<Ignore Prop="Size"></Ignore>
+	<Ignore Prop="SpaceAvailable"></Ignore>
+	<Ignore Prop="DatabaseGuid"></Ignore>
+	<Ignore Prop="RecoveryForkGuid"></Ignore>
+	<Ignore Prop="AnsiPaddingStatus"></Ignore>
+
+	<Ignore Prop="Properties"></Ignore>
+	<Ignore Prop="ID"></Ignore>
+	<Ignore Prop="Sid"></Ignore>
+	<Ignore Prop="ParentID"></Ignore>
+	
+	<!-- Ignore a PROPERTY for a specific TYPE 
+		<Ignore Type="" Prop=""></Ignore>
+	-->
+	<Ignore Type="UserDefinedDataType" Prop="Collation"/>
+	<Ignore Type="XmlSchemaCollection" Prop="Text"></Ignore>
+	<Ignore Type="Database" Prop="IsFullTextEnabled"></Ignore>
+	<Ignore Type="Column" Prop="ComputedText"></Ignore>
+	<Ignore Type="Check" Prop="Text"></Ignore>
+	<Ignore Type="Database" Prop="LogReuseWaitStatus"></Ignore>
+	<Ignore Type="Schema" Prop="ExtendedProperty"></Ignore>
+
+	<!-- Ignore a PROPERTY for a specific Object 
+		<Ignore Prop="" Urn=""></Ignore>
+	-->
+	<!-- Ignore an OBJECT with a specific SCHEMA 
+		<Ignore Schema=""></Ignore>
+	-->
+</SMOComparer>
+
+<!-- 
+	<Ignore Schema="INFORMATION_SCHEMA"></Ignore>
+	<Ignore Schema="sys"></Ignore>
+	<Ignore Prop="HasIndex" Type="View"></Ignore>
+	<Ignore Prop="HasInsertTrigger" Type="View"></Ignore>
+	<Ignore Prop="HasDeleteTrigger" Type="View"></Ignore>
+	<Ignore Prop="HasAfterTrigger" Type="View"></Ignore>
+	<Ignore Prop="HasInsteadOfTrigger" Type="View"></Ignore>
+	<Ignore Prop="HasUpdateTrigger" Type="View"></Ignore>
+	<Ignore Prop="IsEncrypted" Type="View"></Ignore>
+-->
